@@ -87,22 +87,19 @@ your old Role.
 Powers are your way of amplifying your character both on and off the battlefield,
 covering simple abilities like swinging a weapon to complicated magical feats. Some
 Powers require a specific Role, prerequisite levels or relevant Attribute/Skill
-Modifiers. These are listed in each Powers description.
+Modifiers. These are listed in each Power's description.
 
 Each Power has an associated XP cost to add to your character. Passive mechanics, or
-Minor magical tricks
-typically cost 1 XP. Big, character-altering feats will cost more.
+minor magical tricks typically cost 1 XP. Big, character-altering feats will cost more.
 
-Major Powers are
-tiresome and require a limited resource to use: Power Points (PP). Each Power will list
+Major Powers are tiresome and require a limited resource to use: Power Points (PP). Each Power will list
 the PP that must be spent to use the Power. Some Powers allow for different effects
 depending on the PP expended (e.g., 1 PP to target one enemy vs. 2 PP to target
 multiple). The more PP spent, the bigger the effect. Numbers separated by `or` in the
 mechanics description indicate different effects depending on PP spent.
 
-Adding a Power with a PP cost also raises the character's maximum PP by the largest number
-of PP listed for that Power. This means when you add a new Power you automatically gain
-enough PP to use it once. PP are replenished on a [Rest](./01_PlayerGuide_Full.md#rests).
+Starting at Level 1, each character will have a total of 3 PP. At levels 3, 5, and 7, your maximum amount of PP increases by 2. 
+PP are replenished on a [Rest](./01_PlayerGuide_Full.md#rests).
 
 Unless otherwise noted, Powers...
 
@@ -144,7 +141,7 @@ Outsider).
 
 All Attributes and Skills start at a 0 Modifier. You can adjust your Skills and
 Attributes using your Experience Points (XP), which will help define how capable your
-character for relevant actions. On initial character creation, you can spend or earn
+character is for relevant actions. On initial character creation, you can spend or earn
 points by increasing or decreasing Attributes and Skill Modifiers up to -2 or +2 at
 Level 1. This upper limit increases as you level up (see table below). Once modifiers
 are set at character creation, a player may only add newly awarded Experience points.
@@ -164,16 +161,12 @@ are set at character creation, a player may only add newly awarded Experience po
 | 9     | 5        |
 | 10    | 6        |
 
-The lower limit for Modifiers is -2. If a Modifier is -1, any Check made with that
-modifier must be be a Color Match for success. If -2, any Check made with that modifier
-must be a Suited Match for success.
-
 When modifying an Attribute, the related Skills are affected as well. This means that
 boosting Strength to a +1 will also add a +1 to Brute and Intimidation. Reducing an
 Attribute by -1 also reduces the related Skills by -1.
 
 Raising an Attribute Modifier by +1 initially costs 2 Experience Points. Raising a Skill
-Modifier by +1 initially costs +1 Experience Point. In both cases, raising
+Modifier by +1 initially costs 1 Experience Point. In both cases, raising
 modifiers becomes more costly as you add. The table below shows the cost in
 Experience Points and the resulting modifier for Attributes and Skills.
 
