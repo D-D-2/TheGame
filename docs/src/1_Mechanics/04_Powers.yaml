@@ -1041,3 +1041,114 @@ Amplify Ally:
     PP: 0
     Description: Move the chess pieces on your board.
     Mechanic: Select one ally. They can immediately move up to 4 spaces and take one Action.  
+
+Intimidating Presence:
+    Type: Major
+    Category:
+        - Social
+    Mechanic: Target creature with a minimum 0 intelligence or intuition score makes a Conviction Save. On a failure, they suffer the frightened condition towards you
+    Description: You make yourself fearfully intimidating for a moment, directing that energy towards one target. 
+    XP: 1
+    PP: 1
+    Prereq:
+        Role: 
+        - Defender
+        - Martial
+        Level: 3
+    Skill: Bluff > 0 
+    Save: 
+        Type: CON
+        Fail: Frightened
+        Succeed: Frightened immunity for 1 minute
+
+Comprehend Languages: 
+    Type: Major
+    Category: 
+        - Social 
+    Mechanic: For the next hour, you grant a target creature the ability to understand and speak any language you come into contact with
+    Description: For when you need to know what they're saying. 
+    XP: 1
+    PP: 2
+    Prereq: 
+        Role: 
+        - Mage
+        - Support
+        Level: 5
+        Skill: Intelligence > 1
+    
+Charmer: 
+    Type: Major
+    Category: 
+        - Social 
+    Mechanic: Target creature makes a Conviction Save. On a failure, they are charmed by you
+    Description: For when the powers of persuasion just aren't enough. 
+    XP: 1
+    PP: 1
+    Prereq: 
+        Level: 3
+        Skill: Bluff > 1
+    Save:  
+        Type: CON
+        Fail: Charmed
+
+Invisible Eye: 
+    Type: Major 
+    Category: 
+        - Utility
+    Mechanic: Create an invisible eye in a location you can see within 24 spaces. For the next 10 minutes, you may use a minor action to see what the eye sees 
+    Description: What's over there?
+    XP: 1
+    PP: 1
+    Prereq: 
+        Role: 
+        - Mage
+        - Martial 
+        Level: 2
+
+Weather Shift: 
+    Type: Major
+    Category: 
+        - Social 
+        - Utility
+    Mechanic: You can change the weather in a minor way in your area. Some examples include creating a partly cloudy sky, a light breeze, decrease the temperature by less than a degree
+    Description: Something's in the air, or isn't. 
+    XP: 1
+    PP: 1
+    Prereq: 
+        Role: 
+        - Mage
+        Level: 3
+
+Assimilation: 
+    Type: Major
+    Category: 
+        - Utility 
+        - Social
+    Mechanic: You study a person or group's clothing for 1 minute uninterrupted. Afterwards, your clothes match theirs for one hour
+    Description: Be someone else or hide in plain sight. 
+    XP: 1
+    PP: 2
+    Prereq: 
+        Level: 2
+        Skill: Detection > 1
+    
+Modify Emotions: 
+    Type: Major
+    Category: 
+        - Social
+        - Utility
+    Mechanic: Choose an option below. Touch a target creature to change their emotional state. A nonconsensual target makes a Conviction Save to resist the effect. On a failure, the effect lasts for 1 minute
+            Calm - Target no longer suffers from the frightened condition and has a greater sense of peace and calm.
+            Anger - Target is rageful and acts out of anger. The effected creature does not behave outside of a way they normally would when angry. 
+            Anxious - Target feels a sense of nervousness and anxiety. 
+    Description: See how this makes you feel. 
+    XP: 2
+    PP: 2
+    Prereq: 
+        Role: 
+        - Support
+        - Mage
+        - Defender
+        Level: 3
+        Skill: Conviction > 1
+
